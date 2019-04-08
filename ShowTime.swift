@@ -38,7 +38,7 @@ public final class ShowTime: NSObject {
     /// Whether ShowTime is enabled.
     /// ShowTime automatically enables itself by default.
     /// (`.always` by default)
-    @objc public static var enabled: ShowTime.Enabled = .always
+    @objc public static var enabled: ShowTime.Enabled = .never
     
     /// The fill (background) colour of the visual touches.
     /// If set to `.auto`, ShowTime automatically uses the stroke color with 50% alpha.
@@ -47,15 +47,15 @@ public final class ShowTime: NSObject {
     
     /// The colour of the stroke (outline) of the visual touches.
     /// ("Twitter Blue" by default)
-    @objc public static var strokeColor = UIColor(red: 0.21, green: 0.61, blue: 0.92, alpha: 1)
+    @objc public static var strokeColor = UIColor(red: 0.50, green: 0.50, blue: 0.50, alpha: 1)
     
     /// The width (thickness) of the stroke around the visual touches.
     /// (3pt by default)
-    @objc public static var strokeWidth: CGFloat = 3
+    @objc public static var strokeWidth: CGFloat = 2
     
     /// The size of the touch circles.
     /// (44pt x 44pt by default)
-    @objc public static var size = CGSize(width: 44, height: 44)
+    @objc public static var size = CGSize(width: 35, height: 35)
     
     /// The style of animation to use when hiding a visual touch.
     /// (`.standard` by default)
