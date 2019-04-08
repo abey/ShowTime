@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "c67b23093512f5ae114283f18d7f1432"
+build_time: [1554733116, 292668000]
+inputs:
+  "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/AEXML/Sources/AEXML/Document.swift": [1554733089, 264737413]
+  "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/AEXML/Sources/AEXML/Element.swift": [1554733089, 265179458]
+  "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/AEXML/Sources/AEXML/Error.swift": [1554733089, 265569469]
+  "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/AEXML/Sources/AEXML/Options.swift": [1554733089, 265771771]
+  "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/AEXML/Sources/AEXML/Parser.swift": [1554733089, 265948141]

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-//    ShowTime.enabled = .never
+    ShowTime.enabled = .always
     
 //     Uncomment to modify ShowTime display settings
 //     See ObjCViewController.m for Objective-C support

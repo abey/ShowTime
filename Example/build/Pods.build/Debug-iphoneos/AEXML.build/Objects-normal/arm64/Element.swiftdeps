@@ -1,0 +1,705 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AEXMLElement"
+provides-nominal:
+- "5AEXML12AEXMLElementC"
+provides-member:
+- ["5AEXML12AEXMLElementC", ""]
+- ["SS", ""]
+- ["SS", "xmlEscaped"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "=="
+- !private "==="
+- !private ">"
+- !private "??"
+- "AEXMLElement"
+- "AEXMLError"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CharacterSet"
+- "Double"
+- "Int"
+- "String"
+- !private "TernaryPrecedence"
+depends-member:
+- ["5AEXML12AEXMLElementC", "AEXMLElement"]
+- ["5AEXML12AEXMLElementC", "AEXMLError"]
+- !private ["5AEXML12AEXMLElementC", "Array"]
+- ["5AEXML12AEXMLElementC", "Bool"]
+- !private ["5AEXML12AEXMLElementC", "CharacterSet"]
+- ["5AEXML12AEXMLElementC", "Double"]
+- ["5AEXML12AEXMLElementC", "Int"]
+- ["5AEXML12AEXMLElementC", "String"]
+- ["5AEXML12AEXMLElementC", "addChild"]
+- ["5AEXML12AEXMLElementC", "addChildren"]
+- ["5AEXML12AEXMLElementC", "all"]
+- ["5AEXML12AEXMLElementC", "allDescendants"]
+- ["5AEXML12AEXMLElementC", "attributes"]
+- ["5AEXML12AEXMLElementC", "bool"]
+- ["5AEXML12AEXMLElementC", "children"]
+- ["5AEXML12AEXMLElementC", "count"]
+- ["5AEXML12AEXMLElementC", "deinit"]
+- ["5AEXML12AEXMLElementC", "double"]
+- ["5AEXML12AEXMLElementC", "error"]
+- ["5AEXML12AEXMLElementC", "first"]
+- ["5AEXML12AEXMLElementC", "firstDescendant"]
+- ["5AEXML12AEXMLElementC", "hasDescendant"]
+- !private ["5AEXML12AEXMLElementC", "indent"]
+- ["5AEXML12AEXMLElementC", "init"]
+- ["5AEXML12AEXMLElementC", "int"]
+- ["5AEXML12AEXMLElementC", "last"]
+- ["5AEXML12AEXMLElementC", "name"]
+- ["5AEXML12AEXMLElementC", "parent"]
+- !private ["5AEXML12AEXMLElementC", "parentsCount"]
+- !private ["5AEXML12AEXMLElementC", "removeChild"]
+- ["5AEXML12AEXMLElementC", "removeFromParent"]
+- ["5AEXML12AEXMLElementC", "string"]
+- ["5AEXML12AEXMLElementC", "subscript"]
+- ["5AEXML12AEXMLElementC", "value"]
+- ["5AEXML12AEXMLElementC", "xml"]
+- ["5AEXML12AEXMLElementC", "xmlCompact"]
+- ["5AEXML12AEXMLElementC", "xmlSpaces"]
+- !private ["5AEXML10AEXMLErrorO", "elementNotFound"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "index"]
+- ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "last"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "remove"]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "components"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- !private ["SK", "index"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "last"]
+- !private ["SK", "reduce"]
+- !private ["SK", "remove"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["SK", "xmlEscaped"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["Sb", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "xmlEscaped"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "components"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "index"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "last"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "replacingOccurrences"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "xmlEscaped"]
+- !private ["SL", "components"]
+- !private ["SL", "init"]
+- !private ["SL", "replacingOccurrences"]
+- !private ["SL", "xmlEscaped"]
+- !private ["So22NSStringCompareOptionsV", "literal"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "index"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "xmlEscaped"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "xmlEscaped"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "xmlEscaped"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "index"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "components"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- !private ["Se", "index"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "keys"]
+- !private ["Se", "last"]
+- !private ["Se", "reduce"]
+- !private ["Se", "remove"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["Se", "subscript"]
+- !private ["Se", "xmlEscaped"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "count"]
+- !private ["SD", "init"]
+- !private ["SD", "keys"]
+- !private ["SD", "reduce"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "components"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- !private ["SE", "index"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "keys"]
+- !private ["SE", "last"]
+- !private ["SE", "reduce"]
+- !private ["SE", "remove"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["SE", "subscript"]
+- !private ["SE", "xmlEscaped"]
+- !private ["SQ", "append"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "components"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "elementNotFound"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "index"]
+- ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "last"]
+- !private ["SQ", "literal"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "replacingOccurrences"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "xmlEscaped"]
+- !private ["s5ErrorP", "elementNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "literal"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "xmlEscaped"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s32ExpressibleByStringInterpolationP", "xmlEscaped"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "xmlEscaped"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "xmlEscaped"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "components"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "elementNotFound"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "forEach"]
+- !private ["SH", "index"]
+- ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "keys"]
+- !private ["SH", "last"]
+- !private ["SH", "reduce"]
+- !private ["SH", "remove"]
+- !private ["SH", "replacingOccurrences"]
+- !private ["SH", "subscript"]
+- !private ["SH", "xmlEscaped"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "xmlEscaped"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "xmlEscaped"]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["SM", "index"]
+- ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "last"]
+- !private ["SM", "reduce"]
+- !private ["SM", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "index"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "xmlEscaped"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "xmlEscaped"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "xmlEscaped"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "xmlEscaped"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "xmlEscaped"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "xmlEscaped"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So8NSObjectP", "xmlEscaped"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "xmlEscaped"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "xmlEscaped"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "literal"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "index"]
+- ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "last"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "remove"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "components"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "index"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "last"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "replacingOccurrences"]
+- !private ["Sm", "xmlEscaped"]
+- !private ["SY", "literal"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "components"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- !private ["ST", "index"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "keys"]
+- !private ["ST", "last"]
+- !private ["ST", "reduce"]
+- !private ["ST", "remove"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["ST", "subscript"]
+- !private ["ST", "xmlEscaped"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "literal"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- ["SS", "String"]
+- !private ["SS", "components"]
+- !private ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- ["SS", "xmlEscaped"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "components"]
+- !private ["Sy", "init"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["Sy", "xmlEscaped"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "xmlEscaped"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "xmlEscaped"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "index"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "xmlEscaped"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "xmlEscaped"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "xmlEscaped"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "xmlEscaped"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "index"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
+- !private ["s19_HasContiguousBytesP", "xmlEscaped"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "index"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "xmlEscaped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xmlEscaped"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "xmlEscaped"]
+depends-nominal:
+- "5AEXML12AEXMLElementC"
+- !private "5AEXML10AEXMLErrorO"
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- "Sl"
+- !private "SL"
+- !private "So22NSStringCompareOptionsV"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/abey/Documents/Steamclock/ShowTime/Example/Pods/Target Support Files/AEXML/AEXML-umbrella.h"
+- "/Users/abey/Documents/Steamclock/ShowTime/Example/build/Pods.build/Debug-iphoneos/AEXML.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6d6aef6a2b1efe08a105d70d1eff5fee"
